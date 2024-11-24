@@ -1,0 +1,41 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Device is already configured"
+        },
+        "error": {
+            "timeout": "Failed to connect (Timed Out)",
+            "invalid_ssl": "Invalid SSL Certificate",
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
+        },
+        "step": {
+            "environment": {
+                "data": {
+                    "endpoint_id": "Environment"
+                },
+                "title": "Environment Selection"
+            },
+            "user": {
+                "data": {
+                    "host": "Host IP Address",
+                    "port": "Port",
+                    "api_key": "API Key"
+                },
+                "data_description": {
+                    "host": "Provide the host name or IP address without the port or protocol, i.e. '127.0.0.1'."
+                },
+                "sections": {
+                    "ssl_config": {
+                        "name": "SSL Options",
+                        "data": {
+                            "ssl": "Connect via SSL?",
+                            "verify_ssl": "Verify SSL?"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

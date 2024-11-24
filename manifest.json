@@ -1,0 +1,18 @@
+{
+  "domain": "portainer",
+  "name": "Portainer",
+  "codeowners": [
+    "@aidos9"
+  ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://www.github.com/aidos9/ha_portainer_integration",
+  "issue_tracker": "https://github.com/aidos9/ha_portainer_integration/issues",
+  "homekit": {},
+  "iot_class": "local_polling",
+  "integration_type": "hub",
+  "requirements": [],
+  "ssdp": [],
+  "version": "0.1.0",
+  "zeroconf": []
+}
